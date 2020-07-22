@@ -3,19 +3,30 @@ body{
     background-color: #f9fafc;
 }
 
-button{
+.heading1{
+    padding: 0;
+    margin: 0;
+    font-size: small;
+}
+
+.buttonlink{
     background-color: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
     width: 100%;
     border: none;
     padding: 10px;
+    padding-bottom: 0;
+    display: block;
+    font-size: small;
+    text-decoration: none;
 }
 
-a:link{
+.link{
     color: #69696a;
     text-decoration: none;
+    padding: 5px;
 }
 
 a: visited{
@@ -26,6 +37,12 @@ a: visited{
 p{
     border-left: 5px solid gray;
     padding: 10px;
+    font-size: small;
+}
+
+.navigation{
+    font-size: small;
+    margin: none;
 }
 
 ul{
